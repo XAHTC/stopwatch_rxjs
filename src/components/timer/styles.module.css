@@ -1,0 +1,48 @@
+.container {
+    height: 100%;
+    max-width: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.values {
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    color: black;
+    font-family: inherit;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: white;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    font-weight: bold;
+
+    outline: none;
+    border: none;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #434343;
+    color: white;
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+}
